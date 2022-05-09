@@ -1,5 +1,5 @@
 **********************************************************DFS**********************************************************
-# A class to represent a graph object
+#A class to represent a graph object
 class Graph:
     # Constructor
     def __init__(self, edges, n):
@@ -12,7 +12,7 @@ class Graph:
             self.adjList[dest].append(src)
  
  
-# Function to perform DFS traversal on the graph on a graph
+#Function to perform DFS traversal on the graph on a graph
 def DFS(graph, v, discovered):
  
     discovered[v] = True            # mark the current node as discovered
@@ -53,7 +53,7 @@ if __name__ == '__main__':
 from collections import deque
  
  
-# A class to represent a graph object
+#A class to represent a graph object
 class Graph:
     # Constructor
     def __init__(self, edges, n):
@@ -67,7 +67,7 @@ class Graph:
             self.adjList[dest].append(src)
  
  
-# Perform BFS on the graph starting from vertex `v`
+#Perform BFS on the graph starting from vertex `v`
 def BFS(graph, v, discovered):
  
     # create a queue for doing BFS
@@ -237,7 +237,7 @@ puz.process()
 import sys
 A = [64, 25, 12, 22, 11]
   
-# Traverse through all array elements
+#Traverse through all array elements
 for i in range(len(A)):
       
     # Find the minimum element in remaining 
@@ -251,7 +251,7 @@ for i in range(len(A)):
     # the first element        
     A[i], A[min_idx] = A[min_idx], A[i]
   
-# Driver code to test above
+#Driver code to test above
 print ("Sorted array")
 for i in range(len(A)):
     print("%d" %A[i],end=" ") 
@@ -296,7 +296,7 @@ def printSolution(board):
         print(" ")
 
 
-# def solveNQ():
+#def solveNQ():
 board = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 if solveNQUtil(board, 0) == False:
     print("Solution doesn't exist")
@@ -304,7 +304,7 @@ if solveNQUtil(board, 0) == False:
 printSolution(board)
     # return True
 
-# solveNQ()
+#solveNQ()
 
 *************************************************chatbot********************************************************
 import nltk
@@ -416,6 +416,6 @@ def chat():
     chat.converse()
 
 
-# initiate the conversation
+#initiate the conversation
 if __name__ == "__main__":
     chat()

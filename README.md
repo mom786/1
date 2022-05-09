@@ -112,26 +112,8 @@ puz.process()
 
 # Chatbot
 import nltk
-from nltk.chat.util import Chat, reflections
+from nltk.chat.util import Chat
 
-reflections = {
-    "i am": "you are",
-    "i was": "you were",
-    "i": "you",
-    "i'm": "you are",
-    "i'd": "you would",
-    "i've": "you have",
-    "i'll": "you will",
-    "my": "your",
-    "you are": "I am",
-    "you were": "I was",
-    "you've": "I have",
-    "you'll": "I will",
-    "your": "my",
-    "yours": "mine",
-    "you": "me",
-    "me": "you"
-}
 
 pairs = [
     [
@@ -214,12 +196,9 @@ pairs = [
 ]
 
 
-def chat():
-    print("Hi! I am a chat-bot created by Priyanka for your service")
-    chat = Chat(pairs, reflections)
-    chat.converse()
+print("Hi! I am a chat-bot created by Priyanka for your service")
+chat = Chat(pairs)
+chat.converse()
 
 
-#initiate the conversation
-if __name__ == "__main__":
-    chat() -->
+

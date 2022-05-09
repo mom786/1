@@ -1,4 +1,4 @@
-**********************************************************Puzzle**********************************************************
+# Puzzle
 class Node:
     def __init__(self, data, level, fval):
         # Initialize the node with the data ,level of the node and the calculated fvalue
@@ -50,7 +50,6 @@ class Node:
             for j in range(0, len(self.data)):
                 if puz[i][j] == x:
                     return i, j
-
 
 class Puzzle:
     def __init__(self, size):

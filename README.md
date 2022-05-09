@@ -110,8 +110,7 @@ class Puzzle:
 puz = Puzzle(3)
 puz.process()
 
-
-*************************************************chatbot********************************************************
+# Chatbot
 import nltk
 from nltk.chat.util import Chat, reflections
 
